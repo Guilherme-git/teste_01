@@ -14,3 +14,8 @@ cep não seja encontrado, é mostrada a mensagem para o usuário, caso o cep for
 ### Método *search(cep)* - Esse método é responsável por realizar a consulta na api viacep utilizando o fetch, e preencher os inputs com as informações retornadas da api.
 
 ### Método *isValidatedCep(cep)* - Esse método é resposável por validar se o cep informado no input é válido.
+
+---
+## Descrição das funcionalidades dos botões
+
+### Botão *Procurar* - Esse botão é reponsável por chamar o método search(cep) que realizara a consulta na api viacep, e também validar se o cep informado é válido e se ele esta preenchido
